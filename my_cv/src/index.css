@@ -1,0 +1,21 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  color: white;
+  background-image:linear-gradient(45deg,#050505,#0d0221,#0f084b,#26408b,#a6cfd5,#c2e7d9) ;
+}
+
+a {
+  color: white;
+}
+
+.Box{
+  display: inline-block;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+}

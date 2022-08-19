@@ -1,0 +1,15 @@
+.Footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Footer > p{
+    font-size: 15px;
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
+    color:#ccc;
+    font-weight:lighter; 
+    text-align:center;
+    display:inline;
+  }
