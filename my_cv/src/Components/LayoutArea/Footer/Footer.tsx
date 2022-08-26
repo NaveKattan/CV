@@ -1,3 +1,4 @@
+
 import "./Footer.css";
 
 function Footer(): JSX.Element {
@@ -6,7 +7,7 @@ function Footer(): JSX.Element {
 
     return (
         <div className="Footer">
-			<p>All Rights Reserved - By Nave Kattan | {date} | &copy;</p>
+			<p>All Rights Reserved - By Nave Kattan | {date} | &copy; </p>
         </div>
     );
 }

@@ -1,12 +1,16 @@
 .Header{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  height: 100%;
 }
 
-.Header > h1{
-  font-size: 48px;
+.HeaderP {
+  display: inline-block;
+  padding: 25px;
+  color: blue;
+  font-size: 30px;
+}
+
+/* .Header > h1{
+  font-size: 20px;
   text-shadow: -1px -1px #eee, 1px 1px #888, -3px 0 4px #000;
   font-family:"Segoe print", Arial, Helvetica, sans-serif;
   color:#ccc;
@@ -17,4 +21,4 @@
   box-shadow:2px 2px 6px #888;  
   text-align:center;
   display:inline;
-}
+} */

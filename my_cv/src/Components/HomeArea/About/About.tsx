@@ -1,8 +1,8 @@
-import "./AboutMe.css";
+import "./About.css";
 
-function AboutMe(): JSX.Element {
+function About(): JSX.Element {
     return (
-        <div className="AboutMe">
+        <div className="About">
 			<p className="Box">
                 Hi! My name is Nave, and I'm 26 years old.
                 I'm a full stack web student at
@@ -28,4 +28,4 @@ function AboutMe(): JSX.Element {
     );
 }
 
-export default AboutMe;
+export default About;

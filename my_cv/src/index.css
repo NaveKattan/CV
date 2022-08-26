@@ -3,19 +3,26 @@ html, body, #root {
   padding: 0;
   height: 100%;
   text-align: center;
-  color: white;
-  background-image:linear-gradient(45deg,#050505,#0d0221,#0f084b,#26408b,#a6cfd5,#c2e7d9) ;
+  color: blue;
+  /* background-image:linear-gradient(45deg,#050505,#0d0221,#0f084b,#26408b,#a6cfd5,#c2e7d9) ; */
 }
 
-a {
-  color: white;
+.ParallexW {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+/* ParallexB https://media.istockphoto.com/vectors/purple-gradient-abstract-curve-and-golden-lines-illustration-vector-id1347034524?k=20&m=1347034524&s=612x612&w=0&h=Vc3rVGaGxCJOxXPic0XV7dHle-pi1WH2xGUXC98TQ0w= */
 
 .Box{
   display: inline-block;
-  border: 1px solid white;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px;
+  text-decoration: none;
+  margin: 20px;
+  padding: 2px;
+  
 }
+
